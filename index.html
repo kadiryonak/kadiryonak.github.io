@@ -231,8 +231,9 @@
 
         <!-- Project 3: SamuraiTest -->
         <div class="project-card fade-in fade-in-delay-2">
-          <div class="project-image">
+          <div class="project-image contain-img lightbox-trigger" data-images="img/neuratest.png,img/2.jpeg,img/3.jpeg,img/4.jpeg,img/22e6c93e-f999-4781-82e6-4971827a9da5.jpeg" title="Görselleri büyütmek için tıklayın">
             <img src="img/neuratest.png" alt="SamuraiTest" loading="lazy">
+            <div class="image-overlay"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
           </div>
           <div class="project-info">
             <span class="project-badge"
@@ -246,9 +247,9 @@
               SamuraiTest — LLM ile Otomatik Test Üretimi
             </h3>
             <p class="project-desc"
-               data-tr="VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile güvenilirlik sağlandı."
-               data-en="LLM-based automated unit test generation system developed as a VS Code extension. Improved test accuracy using structured prompting and Chain-of-Thought (CoT) techniques; enhanced reliability via self-debug feedback loop.">
-              VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile güvenilirlik sağlandı.
+               data-tr="VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile >%80 Branch ve Line Coverage sağlandı."
+               data-en="LLM-based automated unit test generation system developed as a VS Code extension. Improved test accuracy using structured prompting and CoT techniques; enhanced reliability via self-debug feedback loop, achieving >80% Branch and Line Coverage.">
+              VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile >%80 Branch ve Line Coverage sağlandı.
             </p>
             <div class="project-tags">
               <span class="project-tag">VS Code Extension</span>
@@ -448,6 +449,16 @@
     </div>
   </footer>
 
+
+  <!-- ========== Lightbox Modal ========== -->
+  <div id="lightbox" class="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Büyük Görsel">
+      <button class="lightbox-prev" aria-label="Önceki">&#10094;</button>
+      <button class="lightbox-next" aria-label="Sonraki">&#10095;</button>
+    </div>
+  </div>
 
   <!-- Script -->
   <script src="script.js"></script>
