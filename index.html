@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kadir Yönak — AI Engineer | LLM & RAG Systems</title>
+  <meta name="description" content="Kadir Yönak — AI Engineer specializing in LLM & RAG Systems. Building production-grade AI solutions.">
+  <meta name="keywords" content="Kadir Yönak, AI Engineer, LLM, RAG, NLP, Machine Learning, Python">
+  <meta name="author" content="Kadir Yönak">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kadir Yönak — AI Engineer">
+  <meta property="og:description" content="AI Engineer specializing in LLM & RAG Systems">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://kadiryonak.github.io">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="apple-touch-icon" href="img/favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ========== Navbar ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#hero" class="navbar-brand">kadir<span class="dot">.</span></a>
+
+      <div class="navbar-links" id="navLinks">
+        <a href="#hero" data-tr="Ana Sayfa" data-en="Home">Ana Sayfa</a>
+        <a href="#about" data-tr="Hakkımda" data-en="About">Hakkımda</a>
+        <a href="#projects" data-tr="Projeler" data-en="Projects">Projeler</a>
+        <a href="#experience" data-tr="Deneyim" data-en="Experience">Deneyim</a>
+        <a href="#contact" data-tr="İletişim" data-en="Contact">İletişim</a>
+
+        <div class="lang-toggle">
+          <button class="lang-btn active" data-lang="tr">TR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+        </div>
+      </div>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <!-- ========== Hero Section ========== -->
+  <section id="hero" class="hero">
+    <div class="container">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-greeting fade-in" data-tr="Merhaba, ben" data-en="Hi, I'm">Merhaba, ben</p>
+          <h1 class="hero-name fade-in fade-in-delay-1">Kadir Yönak</h1>
+          <p class="hero-title fade-in fade-in-delay-2">AI Engineer | LLM & RAG Systems</p>
+          <p class="hero-description fade-in fade-in-delay-3"
+             data-tr="Üretim kalitesinde yapay zeka çözümleri geliştiriyorum. LLM, RAG ve NLP alanlarında uzmanlaşarak, gerçek dünya problemlerine ölçeklenebilir ve güvenilir sistemler tasarlıyorum."
+             data-en="I build production-grade AI solutions. Specializing in LLM, RAG, and NLP, I design scalable and reliable systems for real-world problems.">
+            Üretim kalitesinde yapay zeka çözümleri geliştiriyorum. LLM, RAG ve NLP alanlarında uzmanlaşarak, gerçek dünya problemlerine ölçeklenebilir ve güvenilir sistemler tasarlıyorum.
+          </p>
+          <div class="hero-links fade-in fade-in-delay-4">
+            <a href="https://github.com/kadiryonak" target="_blank" rel="noopener" class="hero-link" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            </a>
+            <a href="https://linkedin.com/in/kadiryonak" target="_blank" rel="noopener" class="hero-link" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="mailto:kadiryonak7@gmail.com" class="hero-link" aria-label="Email">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-image fade-in">
+          <div class="hero-image-wrapper">
+            <img src="img/profile.png" alt="Kadir Yönak">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== About Section ========== -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-tr="Hakkımda" data-en="About Me">Hakkımda</p>
+        <h2 class="section-title" data-tr="Ben Kimim?" data-en="Who Am I?">Ben Kimim?</h2>
+      </div>
+
+      <div class="about-content">
+        <div class="about-text fade-in">
+          <p data-tr="Erciyes Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yapay zeka, özellikle Büyük Dil Modelleri (LLM) ve Retrieval-Augmented Generation (RAG) sistemleri üzerine odaklanıyorum. Üniversitemde Yapay Zeka Kulübü'nü kurarak, NLP ve LLM konularında teknik eğitim programları yönetiyorum."
+             data-en="I'm a senior Computer Engineering student at Erciyes University. I focus on Artificial Intelligence, specifically Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) systems. I founded the AI Club at my university, leading technical training programs on NLP and LLM topics.">
+            Erciyes Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yapay zeka, özellikle Büyük Dil Modelleri (LLM) ve Retrieval-Augmented Generation (RAG) sistemleri üzerine odaklanıyorum. Üniversitemde Yapay Zeka Kulübü'nü kurarak, NLP ve LLM konularında teknik eğitim programları yönetiyorum.
+          </p>
+          <p data-tr="Üretim kalitesinde RAG pipeline'ları, hibrit arama mimarileri ve LLM değerlendirme mekanizmaları geliştiriyorum. Docker ile konteynerize edilmiş, CI/CD süreçleriyle otomasyona alınmış projeler üzerinde çalışıyorum."
+             data-en="I develop production-grade RAG pipelines, hybrid search architectures, and LLM evaluation mechanisms. I work on projects containerized with Docker and automated with CI/CD processes.">
+            Üretim kalitesinde RAG pipeline'ları, hibrit arama mimarileri ve LLM değerlendirme mekanizmaları geliştiriyorum. Docker ile konteynerize edilmiş, CI/CD süreçleriyle otomasyona alınmış projeler üzerinde çalışıyorum.
+          </p>
+        </div>
+
+        <div class="fade-in">
+          <p class="skill-category-label" data-tr="Programlama" data-en="Programming">Programlama</p>
+          <div class="skills-grid">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+
+          <p class="skill-category-label">ML & NLP</p>
+          <div class="skills-grid">
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Hugging Face</span>
+            <span class="skill-tag">Sentence Transformers</span>
+          </div>
+
+          <p class="skill-category-label" data-tr="LLM Sistemleri" data-en="LLM Systems">LLM Sistemleri</p>
+          <div class="skills-grid">
+            <span class="skill-tag">LangChain</span>
+            <span class="skill-tag">DSPy</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">Agentic Pipelines</span>
+          </div>
+
+          <p class="skill-category-label">RAG & Retrieval</p>
+          <div class="skills-grid">
+            <span class="skill-tag">Semantic Search</span>
+            <span class="skill-tag">Hybrid Search</span>
+            <span class="skill-tag">Cross-Encoder</span>
+            <span class="skill-tag">Context Engineering</span>
+            <span class="skill-tag">ChromaDB</span>
+            <span class="skill-tag">Qdrant</span>
+            <span class="skill-tag">FAISS</span>
+          </div>
+
+          <p class="skill-category-label" data-tr="Altyapı" data-en="Infrastructure">Altyapı</p>
+          <div class="skills-grid">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Flask / FastAPI</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">pytest</span>
+          </div>
+
+          <p class="skill-category-label" data-tr="Değerlendirme" data-en="Evaluation">Değerlendirme</p>
+          <div class="skills-grid">
+            <span class="skill-tag">DeepEval</span>
+            <span class="skill-tag">RAGAS</span>
+            <span class="skill-tag">BLEU / ROUGE</span>
+            <span class="skill-tag">LLM-as-Judge</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== Projects Section ========== -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-tr="Projeler" data-en="Projects">Projeler</p>
+        <h2 class="section-title" data-tr="Neler Yaptım?" data-en="What I've Built">Neler Yaptım?</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: RagArt -->
+        <div class="project-card fade-in">
+          <div class="project-image">
+            <img src="img/ragart-qa.png" alt="RagArt" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3 class="project-name">RagArt</h3>
+            <p class="project-desc"
+               data-tr="BM25 ve Cross-Encoder destekli Hibrit Arama mimarisi ile üretim kalitesinde Türkçe RAG sistemi. 4 katmanlı değerlendirme mekanizması, Docker ile konteynerize, 174 test senaryosu ile güvenilir dağıtım."
+               data-en="Production-grade Turkish RAG system with Hybrid Search powered by BM25 and Cross-Encoder. 4-layer evaluation mechanism, containerized with Docker, reliable deployment with 174 test cases.">
+              BM25 ve Cross-Encoder destekli Hibrit Arama mimarisi ile üretim kalitesinde Türkçe RAG sistemi. 4 katmanlı değerlendirme mekanizması, Docker ile konteynerize, 174 test senaryosu ile güvenilir dağıtım.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">LangChain</span>
+              <span class="project-tag">ChromaDB</span>
+              <span class="project-tag">Docker</span>
+              <span class="project-tag">FastAPI</span>
+            </div>
+            <a href="https://github.com/kadiryonak/RagArt" target="_blank" rel="noopener" class="project-link">
+              GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2: Legal Assistant -->
+        <div class="project-card fade-in fade-in-delay-1">
+          <div class="project-image-placeholder">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          </div>
+          <div class="project-info">
+            <h3 class="project-name"
+                data-tr="Yapay Zeka Destekli Hukuk Asistanı"
+                data-en="AI-Powered Legal Assistant">
+              Yapay Zeka Destekli Hukuk Asistanı
+            </h3>
+            <p class="project-desc"
+               data-tr="Türk hukuku için özelleştirilmiş soru-cevap ve dilekçe üretim sistemi. Hibrit arama, semantik arama ve reranking teknikleriyle optimize edilmiş RAG pipeline. LoRA fine-tuning ile halüsinasyon azaltma."
+               data-en="Q&A and petition generation system tailored for Turkish law. RAG pipeline optimized with hybrid search, semantic search, and reranking. LoRA fine-tuning for hallucination reduction.">
+              Türk hukuku için özelleştirilmiş soru-cevap ve dilekçe üretim sistemi. Hibrit arama, semantik arama ve reranking teknikleriyle optimize edilmiş RAG pipeline. LoRA fine-tuning ile halüsinasyon azaltma.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">RAG</span>
+              <span class="project-tag">LoRA</span>
+              <span class="project-tag">Hybrid Search</span>
+              <span class="project-tag">Reranking</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: SamuraiTest -->
+        <div class="project-card fade-in fade-in-delay-2">
+          <div class="project-image">
+            <img src="img/neuratest.png" alt="SamuraiTest" loading="lazy">
+          </div>
+          <div class="project-info">
+            <span class="project-badge"
+                  data-tr="📄 Q1 Dergi İnceleme Aşamasında"
+                  data-en="📄 Under Review — Q1 Journal">
+              📄 Q1 Dergi İnceleme Aşamasında
+            </span>
+            <h3 class="project-name"
+                data-tr="SamuraiTest — LLM ile Otomatik Test Üretimi"
+                data-en="SamuraiTest — Automated Unit Test Generation with LLM">
+              SamuraiTest — LLM ile Otomatik Test Üretimi
+            </h3>
+            <p class="project-desc"
+               data-tr="VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile güvenilirlik sağlandı."
+               data-en="LLM-based automated unit test generation system developed as a VS Code extension. Improved test accuracy using structured prompting and Chain-of-Thought (CoT) techniques; enhanced reliability via self-debug feedback loop.">
+              VS Code eklentisi olarak geliştirilen LLM tabanlı otomatik birim test üretim sistemi. Yapılandırılmış prompting ve Chain-of-Thought (CoT) teknikleriyle test doğruluğu artırıldı; self-debug döngüsü ile güvenilirlik sağlandı.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">VS Code Extension</span>
+              <span class="project-tag">LLM</span>
+              <span class="project-tag">CoT</span>
+              <span class="project-tag">Prompt Engineering</span>
+              <span class="project-tag">pytest</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4: YZK Chatbot -->
+        <div class="project-card fade-in fade-in-delay-3">
+          <div class="project-image">
+            <img src="img/yzk-chatbot.png" alt="Yapay Zeka Kulübü Chatbot" loading="lazy">
+          </div>
+          <div class="project-info">
+            <h3 class="project-name"
+                data-tr="Yapay Zeka Kulübü Chatbot"
+                data-en="AI Club Chatbot">
+              Yapay Zeka Kulübü Chatbot
+            </h3>
+            <p class="project-desc"
+               data-tr="Erciyes Üniversitesi Yapay Zeka Kulübü için geliştirilen, kulüp etkinlikleri ve projeleri hakkında bilgi veren interaktif sohbet botu. LLM tabanlı, doğal dil ile etkileşim."
+               data-en="Interactive chatbot developed for Erciyes University AI Club, providing information about club events and projects. LLM-based, natural language interaction.">
+              Erciyes Üniversitesi Yapay Zeka Kulübü için geliştirilen, kulüp etkinlikleri ve projeleri hakkında bilgi veren interaktif sohbet botu. LLM tabanlı, doğal dil ile etkileşim.
+            </p>
+            <div class="project-tags">
+              <span class="project-tag">LLM</span>
+              <span class="project-tag">Chatbot</span>
+              <span class="project-tag">RAG</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== Experience Section ========== -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-tr="Deneyim" data-en="Experience">Deneyim</p>
+        <h2 class="section-title" data-tr="Profesyonel Yolculuğum" data-en="My Professional Journey">Profesyonel Yolculuğum</h2>
+      </div>
+
+      <div class="timeline fade-in">
+
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2024 – <span data-tr="Devam Ediyor" data-en="Present">Devam Ediyor</span></p>
+          <h3 class="timeline-role"
+              data-tr="Kurucu & Yönetim Kurulu Üyesi"
+              data-en="Founder & Executive Board Member">
+            Kurucu & Yönetim Kurulu Üyesi
+          </h3>
+          <p class="timeline-company">ERU Yapay Zeka Kulübü</p>
+          <p class="timeline-location">Kayseri, Turkey</p>
+          <ul class="timeline-desc">
+            <li data-tr="NLP, Büyük Dil Modelleri ve RAG sistemleri üzerine teknik eğitim programları yönetimi."
+                data-en="Leading technical training programs on NLP, Large Language Models, and RAG systems.">
+              NLP, Büyük Dil Modelleri ve RAG sistemleri üzerine teknik eğitim programları yönetimi.
+            </li>
+            <li data-tr="Transformer mimarileri, bi-encoder/cross-encoder retrieval, LangChain tabanlı pipeline tasarımı ve değerlendirme framework'leri (RAGAS, DeepEval) konularında üretime odaklı eğitimler."
+                data-en="Teaching production-focused topics: Transformer architectures, bi-encoder/cross-encoder retrieval, LangChain pipeline design, and evaluation frameworks (RAGAS, DeepEval).">
+              Transformer mimarileri, bi-encoder/cross-encoder retrieval, LangChain tabanlı pipeline tasarımı ve değerlendirme framework'leri (RAGAS, DeepEval) konularında üretime odaklı eğitimler.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2025</p>
+          <h3 class="timeline-role"
+              data-tr="Yapay Zeka Stajyeri"
+              data-en="Artificial Intelligence Intern">
+            Yapay Zeka Stajyeri
+          </h3>
+          <p class="timeline-company">Erciyes Technopark — FOMOTECH</p>
+          <p class="timeline-location">Kayseri, Turkey</p>
+          <ul class="timeline-desc">
+            <li data-tr="Drone görüntüleri üzerinde bilgisayarla görme kullanarak bitki hastalığı tespit sistemi geliştirilmesi."
+                data-en="Developed a plant disease detection system using computer vision on drone imagery.">
+              Drone görüntüleri üzerinde bilgisayarla görme kullanarak bitki hastalığı tespit sistemi geliştirilmesi.
+            </li>
+            <li data-tr="Yapay Arı Koloni (ABC) algoritması ile hiperparametre optimizasyonu yapılarak model doğruluğunun artırılması."
+                data-en="Improved model accuracy by performing hyperparameter optimization using the Artificial Bee Colony (ABC) algorithm.">
+              Yapay Arı Koloni (ABC) algoritması ile hiperparametre optimizasyonu yapılarak model doğruluğunun artırılması.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <p class="timeline-date">2024 – <span data-tr="Devam Ediyor" data-en="Present">Devam Ediyor</span></p>
+          <h3 class="timeline-role"
+              data-tr="Serbest AI / LLM Geliştirici"
+              data-en="Freelance AI / LLM Developer">
+            Serbest AI / LLM Geliştirici
+          </h3>
+          <p class="timeline-company">RAG & Agent Systems</p>
+          <p class="timeline-location">Remote</p>
+          <ul class="timeline-desc">
+            <li data-tr="Müşteriler için hibrit retrieval destekli, uçtan uca RAG tabanlı soru-cevap ve bilgi erişim sistemleri geliştirildi ve deploy edildi."
+                data-en="Developed and deployed end-to-end RAG-based Q&A and information retrieval systems with hybrid retrieval for clients.">
+              Müşteriler için hibrit retrieval destekli, uçtan uca RAG tabanlı soru-cevap ve bilgi erişim sistemleri geliştirildi ve deploy edildi.
+            </li>
+            <li data-tr="WhatsApp ve Telegram bot entegrasyonları ile kullanıcıların doğal dil üzerinden bilgiye erişimini sağlayan chatbot sistemleri geliştirildi."
+                data-en="Built chatbot systems integrated with WhatsApp and Telegram bots, enabling users to access information via natural language.">
+              WhatsApp ve Telegram bot entegrasyonları ile kullanıcıların doğal dil üzerinden bilgiye erişimini sağlayan chatbot sistemleri geliştirildi.
+            </li>
+            <li data-tr="RAGAS tarzı faithfulness değerlendirmesi (≥0.85 bağımsız yargıcı) ve 5 katmanlı kalite kapısı ile halüsinasyon azaltma sağlandı."
+                data-en="Achieved hallucination reduction via RAGAS-style faithfulness evaluation (≥0.85 independent judge) and a 5-layer quality gate.">
+              RAGAS tarzı faithfulness değerlendirmesi (≥0.85 bağımsız yargıcı) ve 5 katmanlı kalite kapısı ile halüsinasyon azaltma sağlandı.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Education -->
+      <div style="margin-top: 64px;">
+        <div class="section-header fade-in">
+          <p class="section-label" data-tr="Eğitim" data-en="Education">Eğitim</p>
+        </div>
+
+        <div class="education-card fade-in">
+          <div class="education-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 6 3 6 3s3 0 6-3v-5"/></svg>
+          </div>
+          <div class="education-details">
+            <h3 data-tr="Bilgisayar Mühendisliği, Lisans" data-en="B.Sc. in Computer Engineering">Bilgisayar Mühendisliği, Lisans</h3>
+            <p data-tr="Erciyes Üniversitesi" data-en="Erciyes University">Erciyes Üniversitesi</p>
+            <p class="edu-year">2021 – 2026 · Kayseri, Turkey</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ========== Contact Section ========== -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-tr="İletişim" data-en="Contact">İletişim</p>
+        <h2 class="section-title" data-tr="Bana Ulaşın" data-en="Get in Touch">Bana Ulaşın</h2>
+      </div>
+
+      <div class="contact-grid">
+
+        <a href="mailto:kadiryonak7@gmail.com" class="contact-card fade-in">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </div>
+          <div class="contact-info">
+            <p class="contact-label">Email</p>
+            <p class="contact-value">kadiryonak7@gmail.com</p>
+          </div>
+        </a>
+
+        <a href="https://github.com/kadiryonak" target="_blank" rel="noopener" class="contact-card fade-in fade-in-delay-1">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </div>
+          <div class="contact-info">
+            <p class="contact-label">GitHub</p>
+            <p class="contact-value">kadiryonak</p>
+          </div>
+        </a>
+
+        <a href="https://linkedin.com/in/kadiryonak" target="_blank" rel="noopener" class="contact-card fade-in fade-in-delay-2">
+          <div class="contact-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </div>
+          <div class="contact-info">
+            <p class="contact-label">LinkedIn</p>
+            <p class="contact-value">kadiryonak</p>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Kadir Yönak</p>
+    </div>
+  </footer>
+
+
+  <!-- Script -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+# Bootstrap template (not needed)
+MyPage/
+
+# PDF
+Kadir.pdf
+
+# Generated images (not part of site)
+Gemini_Generated_Image*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
