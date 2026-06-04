@@ -395,6 +395,44 @@ ul {
   margin-top: 32px;
 }
 
+.about-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 4px;
+}
+
+.about-exp-item {
+  padding-left: 16px;
+  border-left: 2px solid var(--border);
+}
+
+.about-exp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.about-exp-item h4 {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.about-exp-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.about-exp-company {
+  font-size: 13px;
+  color: var(--text-secondary);
+  margin-top: 3px;
+}
+
 /* ---------- Projects Section ---------- */
 .projects-grid {
   display: grid;
