@@ -113,59 +113,7 @@
           </p>
         </div>
 
-        <div class="fade-in">
-          <p class="skill-category-label" data-tr="Programlama" data-en="Programming">Programlama</p>
-          <div class="skills-grid">
-            <span class="skill-tag">Python</span>
-            <span class="skill-tag">SQL</span>
-          </div>
-
-          <p class="skill-category-label">ML & NLP</p>
-          <div class="skills-grid">
-            <span class="skill-tag">PyTorch</span>
-            <span class="skill-tag">Hugging Face</span>
-            <span class="skill-tag">Sentence Transformers</span>
-          </div>
-
-          <p class="skill-category-label" data-tr="LLM Sistemleri" data-en="LLM Systems">LLM Sistemleri</p>
-          <div class="skills-grid">
-            <span class="skill-tag">LangChain</span>
-            <span class="skill-tag">DSPy</span>
-            <span class="skill-tag">Prompt Engineering</span>
-            <span class="skill-tag">Agentic Pipelines</span>
-            <span class="skill-tag">PEFT</span>
-            <span class="skill-tag">LoRA</span>
-            <span class="skill-tag">QLoRA</span>
-          </div>
-
-          <p class="skill-category-label">RAG & Retrieval</p>
-          <div class="skills-grid">
-            <span class="skill-tag">Semantic Search</span>
-            <span class="skill-tag">Hybrid Search</span>
-            <span class="skill-tag">Cross-Encoder</span>
-            <span class="skill-tag">Context Engineering</span>
-            <span class="skill-tag">ChromaDB</span>
-            <span class="skill-tag">Qdrant</span>
-            <span class="skill-tag">FAISS</span>
-          </div>
-
-          <p class="skill-category-label" data-tr="Altyapı" data-en="Infrastructure">Altyapı</p>
-          <div class="skills-grid">
-            <span class="skill-tag">Docker</span>
-            <span class="skill-tag">Flask / FastAPI</span>
-            <span class="skill-tag">GitHub Actions</span>
-            <span class="skill-tag">Git</span>
-            <span class="skill-tag">pytest</span>
-          </div>
-
-          <p class="skill-category-label" data-tr="Değerlendirme" data-en="Evaluation">Değerlendirme</p>
-          <div class="skills-grid">
-            <span class="skill-tag">DeepEval</span>
-            <span class="skill-tag">RAGAS</span>
-            <span class="skill-tag">BLEU / ROUGE</span>
-            <span class="skill-tag">LLM-as-Judge</span>
-          </div>
-        </div>
+        <!-- skills moved below Projects -->
       </div>
     </div>
   </section>
@@ -256,23 +204,7 @@
 
       </div>
 
-      <!-- Education -->
-      <div style="margin-top: 64px;">
-        <div class="section-header fade-in">
-          <p class="section-label" data-tr="Eğitim" data-en="Education">Eğitim</p>
-        </div>
-
-        <div class="education-card fade-in">
-          <div class="education-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 6 3 6 3s3 0 6-3v-5"/></svg>
-          </div>
-          <div class="education-details">
-            <h3 data-tr="Bilgisayar Mühendisliği, Lisans" data-en="B.Sc. in Computer Engineering">Bilgisayar Mühendisliği, Lisans</h3>
-            <p data-tr="Erciyes Üniversitesi" data-en="Erciyes University">Erciyes Üniversitesi</p>
-            <p class="edu-year">2021 – 2026 · Kayseri, Turkey</p>
-          </div>
-        </div>
-      </div>
+      <!-- Education moved below Projects -->
 
     </div>
   </section>
@@ -315,28 +247,30 @@
           </div>
         </div>
 
-        <!-- Project 2: Legal Assistant -->
+        <!-- Project 2: DeepArticle -->
         <div class="project-card fade-in fade-in-delay-1">
-          <div class="project-image-placeholder">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+          <div class="project-image lightbox-trigger" data-images="img/StudyPlan.png,img/TopicAnalyses.png,img/Articles.png,img/Articlestwo.png" title="Görselleri büyütmek için tıklayın">
+            <img src="img/StudyPlan.png" alt="DeepArticle" loading="lazy">
+            <div class="image-overlay"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/><line x1="11" y1="8" x2="11" y2="14"/><line x1="8" y1="11" x2="14" y2="11"/></svg></div>
           </div>
           <div class="project-info">
-            <h3 class="project-name"
-                data-tr="Yapay Zeka Destekli Hukuk Asistanı"
-                data-en="AI-Powered Legal Assistant">
-              Yapay Zeka Destekli Hukuk Asistanı
-            </h3>
+            <h3 class="project-name">DeepArticle</h3>
             <p class="project-desc"
-               data-tr="Türk hukuku için özelleştirilmiş soru-cevap ve dilekçe üretim sistemi. RAG mimarisi ile halüsinasyon azaltılmış, LoRA fine-tuning ile cevap kalitesi artırılmıştır."
-               data-en="Q&A and petition generation system tailored for Turkish law. Hallucinations reduced via RAG architecture, and answer quality improved through LoRA fine-tuning.">
-              Türk hukuku için özelleştirilmiş soru-cevap ve dilekçe üretim sistemi. RAG mimarisi ile halüsinasyon azaltılmış, LoRA fine-tuning ile cevap kalitesi artırılmıştır.
+               data-tr="Çok ajanlı akademik makale analiz sistemi. arxiv, Semantic Scholar, OpenAlex ve diğer 5 kaynaktan eş zamanlı arama yaparak konu analizi, çalışma planı ve makale önerileri sunan araştırma asistanı. Groq destekli, TR/EN dil desteği."
+               data-en="Multi-agent academic paper analysis system. Research assistant that simultaneously searches arxiv, Semantic Scholar, OpenAlex and 5 other sources, delivering topic analysis, study plans, and paper recommendations. Powered by Groq, with TR/EN language support.">
+              Çok ajanlı akademik makale analiz sistemi. arxiv, Semantic Scholar, OpenAlex ve diğer 5 kaynaktan eş zamanlı arama yaparak konu analizi, çalışma planı ve makale önerileri sunan araştırma asistanı. Groq destekli, TR/EN dil desteği.
             </p>
             <div class="project-tags">
-              <span class="project-tag">RAG</span>
-              <span class="project-tag">LoRA</span>
-              <span class="project-tag">Hybrid Search</span>
-              <span class="project-tag">Reranking</span>
+              <span class="project-tag">Python</span>
+              <span class="project-tag">Multi-Agent</span>
+              <span class="project-tag">Groq</span>
+              <span class="project-tag">Semantic Scholar</span>
+              <span class="project-tag">arxiv</span>
             </div>
+            <a href="https://github.com/kadiryonak/DeepArticle" target="_blank" rel="noopener" class="project-link">
+              GitHub
+              <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+            </a>
           </div>
         </div>
 
@@ -401,6 +335,89 @@
     </div>
   </section>
 
+
+  <!-- ========== Skills Section (moved) ========== -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label">Yetenekler</p>
+      </div>
+
+      <div class="fade-in">
+        <p class="skill-category-label" data-tr="Programlama" data-en="Programming">Programlama</p>
+        <div class="skills-grid">
+          <span class="skill-tag">Python</span>
+          <span class="skill-tag">SQL</span>
+        </div>
+
+        <p class="skill-category-label">ML & NLP</p>
+        <div class="skills-grid">
+          <span class="skill-tag">PyTorch</span>
+          <span class="skill-tag">Hugging Face</span>
+          <span class="skill-tag">Sentence Transformers</span>
+        </div>
+
+        <p class="skill-category-label" data-tr="LLM Sistemleri" data-en="LLM Systems">LLM Sistemleri</p>
+        <div class="skills-grid">
+          <span class="skill-tag">LangChain</span>
+          <span class="skill-tag">DSPy</span>
+          <span class="skill-tag">Prompt Engineering</span>
+          <span class="skill-tag">Agentic Pipelines</span>
+          <span class="skill-tag">PEFT</span>
+          <span class="skill-tag">LoRA</span>
+          <span class="skill-tag">QLoRA</span>
+        </div>
+
+        <p class="skill-category-label">RAG & Retrieval</p>
+        <div class="skills-grid">
+          <span class="skill-tag">Semantic Search</span>
+          <span class="skill-tag">Hybrid Search</span>
+          <span class="skill-tag">Cross-Encoder</span>
+          <span class="skill-tag">Context Engineering</span>
+          <span class="skill-tag">ChromaDB</span>
+          <span class="skill-tag">Qdrant</span>
+          <span class="skill-tag">FAISS</span>
+        </div>
+
+        <p class="skill-category-label" data-tr="Altyapı" data-en="Infrastructure">Altyapı</p>
+        <div class="skills-grid">
+          <span class="skill-tag">Docker</span>
+          <span class="skill-tag">Flask / FastAPI</span>
+          <span class="skill-tag">GitHub Actions</span>
+          <span class="skill-tag">Git</span>
+          <span class="skill-tag">pytest</span>
+        </div>
+
+        <p class="skill-category-label" data-tr="Değerlendirme" data-en="Evaluation">Değerlendirme</p>
+        <div class="skills-grid">
+          <span class="skill-tag">DeepEval</span>
+          <span class="skill-tag">RAGAS</span>
+          <span class="skill-tag">BLEU / ROUGE</span>
+          <span class="skill-tag">LLM-as-Judge</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== Education (moved) ========== -->
+  <section id="education" class="section">
+    <div class="container">
+      <div class="section-header fade-in">
+        <p class="section-label" data-tr="Eğitim" data-en="Education">Eğitim</p>
+      </div>
+
+      <div class="education-card fade-in">
+        <div class="education-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 6 3 6 3s3 0 6-3v-5"/></svg>
+        </div>
+        <div class="education-details">
+          <h3 data-tr="Bilgisayar Mühendisliği, Lisans" data-en="B.Sc. in Computer Engineering">Bilgisayar Mühendisliği, Lisans</h3>
+          <p data-tr="Erciyes Üniversitesi" data-en="Erciyes University">Erciyes Üniversitesi</p>
+          <p class="edu-year">2021 – 2026 · Kayseri, Turkey</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- ========== Contact Section ========== -->
   <section id="contact" class="section">
