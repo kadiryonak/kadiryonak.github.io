@@ -93,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const nextBtn = document.querySelector('.lightbox-next');
   let currentImages = [];
   let currentIndex = 0;
+  let currentAlt = '';
 
   if (lightbox) {
     document.querySelectorAll('.lightbox-trigger').forEach(trigger => {
@@ -101,6 +102,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (imagesStr) {
           currentImages = imagesStr.split(',');
           currentIndex = 0;
+          // capture alt text from the thumbnail inside the trigger (if present)
+          const thumbImg = trigger.querySelector('img');
+          currentAlt = thumbImg ? thumbImg.alt || '' : '';
           showLightboxImage();
           lightbox.classList.add('active');
           document.body.style.overflow = 'hidden';
@@ -119,6 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function showLightboxImage() {
       if (currentImages.length > 0) {
         lightboxImg.src = currentImages[currentIndex];
+        lightboxImg.alt = currentAlt || '';
       }
     }
 
